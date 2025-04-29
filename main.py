@@ -8,7 +8,7 @@ from preprocess import preprocess_image
 app = FastAPI()
 
 # Загрузка модели и label binarizer
-model = load_model("best_model_resnet_like.keras")
+model = load_model("best_model_new.keras")
 label_binarizer = joblib.load("label_binarizer.pkl")
 
 @app.post("/predict/")
