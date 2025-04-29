@@ -5,7 +5,7 @@ opencv-python-headless
 pillow
 scikit-learn
 joblib
-tensorflow
+tensorflow-cpu
 streamlit
 streamlit-drawable-canvas
 python-multipart
